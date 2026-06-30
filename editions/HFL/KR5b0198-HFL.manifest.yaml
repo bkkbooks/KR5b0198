@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0198/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0198/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玉籙資度晚朝儀
+  date: '2015-08-29 00:12:29.312367'
+  source:
+    repository: kanripo
+    path: KR5b0198
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0198_000-HFL.yaml, hash: 'sha256:f283511c7045bfd04250e6ec181a8ac80ccb9b38924b8230c1ba38d55f1e6563'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0198_000-HFL.markers.yaml, hash: 'sha256:a31382ba8e54644a704c469901ae82f78351095a7e3e5ac0c1a0897de9c04716'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0198_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1632
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:86317f422253edc05ec1d8349ce08ae112d74dc7ae375d051eefb089dfcf2434
